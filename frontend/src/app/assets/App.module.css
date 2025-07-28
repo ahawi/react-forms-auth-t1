@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+.layout__inner {
+  display: flex;
+  width: 100%;
+}
+
+.layout__content {
+  min-height: 280px;
+  margin: 24px;
+}
+
+@media (max-width: 1024px) {
+  .layout__inner {
+    display: block;
+  }
+}

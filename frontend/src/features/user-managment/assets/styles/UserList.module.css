@@ -1,0 +1,20 @@
+.userList {
+  width: 100%;
+  max-width: 100%;
+}
+
+.userList__button {
+  margin-bottom: 24px;
+}
+
+.userList__table {
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .userList__actions {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
